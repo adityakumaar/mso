@@ -1,0 +1,33 @@
+<Configuration ID="21fbd5a6-3ab4-438f-b703-fde5dd5a37ae">
+  <Info Description="" />
+  <Add OfficeClientEdition="64" Channel="PerpetualVL2021">
+    <Product ID="Standard2021Volume" PIDKEY="KD3NQ-GT6QD-84QPQ-HFF9H-GCTXH">
+      <Language ID="en-us" />
+      <Language ID="en-gb" />
+      <Language ID="hi-in" />
+    </Product>
+    <Product ID="VisioStd2021Volume" PIDKEY="MJVNY-BYWPY-CWV6J-2RKRT-4M8QG">
+      <Language ID="en-us" />
+      <Language ID="en-gb" />
+      <Language ID="hi-in" />
+    </Product>
+    <Product ID="ProjectStd2021Volume" PIDKEY="J2JDC-NJCYY-9RGQ4-YXWMH-T3D4T">
+      <Language ID="en-us" />
+      <Language ID="en-gb" />
+      <Language ID="hi-in" />
+    </Product>
+  </Add>
+  <Property Name="SharedComputerLicensing" Value="0" />
+  <Property Name="FORCEAPPSHUTDOWN" Value="FALSE" />
+  <Property Name="DeviceBasedLicensing" Value="0" />
+  <Property Name="SCLCacheOverride" Value="0" />
+  <Property Name="AUTOACTIVATE" Value="1" />
+  <Updates Enabled="TRUE" />
+  <RemoveMSI />
+  <AppSettings>
+    <Setup Name="Company" Value="NHPC KISHANGANGA" />
+    <User Key="software\microsoft\office\16.0\excel\options" Name="defaultformat" Value="51" Type="REG_DWORD" App="excel16" Id="L_SaveExcelfilesas" />
+    <User Key="software\microsoft\office\16.0\powerpoint\options" Name="defaultformat" Value="27" Type="REG_DWORD" App="ppt16" Id="L_SavePowerPointfilesas" />
+    <User Key="software\microsoft\office\16.0\word\options" Name="defaultformat" Value="" Type="REG_SZ" App="word16" Id="L_SaveWordfilesas" />
+  </AppSettings>
+</Configuration>
